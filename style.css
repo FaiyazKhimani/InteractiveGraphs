@@ -1,0 +1,111 @@
+body {
+  font: 12px sans-serif;
+}
+#legend {
+	font: 12px sans-serif;
+}
+
+.tick > line {
+	fill: none;
+	stroke: black;
+}
+.tick > text {
+	fill: black;
+}
+
+path.domain {
+	fill: none;
+	stroke-width: 2px;
+	stroke: black;
+}
+
+#wrapper {
+	clear:both;
+}
+
+#Total {
+	fill:#FF9C33;
+	stroke:#FF9C33;
+}
+#Pedestrian{
+	fill:#00FFFF;
+	stroke:#00FFFF;
+}
+
+#Car_Occupant{
+	fill:#82FF88;
+	stroke:#82FF88;
+}
+
+#Motorcycle{
+fill:#0000FF;
+stroke:#0000FF;
+}
+#Bicycle{
+	fill:#FF09B4;
+	stroke:#FF09B4;
+}
+
+
+
+#Trucks{
+	fill:#9D00FF;
+	stroke:#9D00FF;
+} 
+
+circle{
+	opacity: .5;
+}
+.line{
+	opacity: .5;
+}
+#Car_Per_100K{
+	fill:#228B22;
+	stroke:#228B22;
+
+}
+#Ped_Per_100K{
+	fill:#005AE0;
+	stroke:#005AE0;
+
+}
+#Motorcycle_Per_100K{
+	fill:#00006F;
+	stroke:#00006F;
+
+}
+#Bicycle_Per_100K{
+	fill:#BB0070;
+	stroke:#BB0070;
+
+}
+#Trucks_Per_100K{
+	fill:#62009F;
+	stroke:#62009F;
+
+}
+#Total_Per_100K{
+	fill:#C95000;
+	stroke:#C95000;
+}
+
+.tooltip:hover circle{
+    opacity: 1; 
+
+}
+.tooltip:hover rect{
+    visibility: visible;  
+}
+.tooltip rect{
+
+visibility: hidden;
+}
+.tooltip text{
+visibility: hidden;
+}
+.tooltip:hover text{
+
+		visibility: visible;
+		}
+	
+

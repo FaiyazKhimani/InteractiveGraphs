@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/> 
+		<title>Final Project</title>
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>	 
+   	</head>
+   	<body>
+		
+   		
+		   <div style="float:left;padding-right: 50px;"> 
+		   
+		   <form>
+			<label for="fname">Totals</label>
+			<br>
+			<br>
+			<input type="checkbox" name="leftAxis" onchange="onChange(this)"   value="Total" checked="checked" >All <br>
+			<input type="checkbox" name="leftAxis" onchange="onChange(this)"  value="Car_Occupant">Cars<br>
+			<input type="checkbox" name="leftAxis" onchange="onChange(this)"  value="Pedestrian">Pedestrians<br>
+			<input type="checkbox" name="leftAxis" onchange="onChange(this)"  value="Motorcycle">Motorcycles<br>
+			<input type="checkbox" name="leftAxis" onchange="onChange(this)"  value="Bicycle">Bicycles<br>
+			<input type="checkbox" name="leftAxis" onchange="onChange(this)"  value="Trucks">Trucks<br>
+			<!--
+			<input type="radio" name="leftAxis"  value="Total_Per_100K">All (Per 100K)<br>
+			<input type="radio" name="leftAxis"   value="Car_Per_100K">Cars (Per 100K)<br>
+			<input type="radio" name="leftAxis"  value="Ped_Per_100K">Pedestrians (Per 100K)<br>
+			<input type="radio" name="leftAxis"  value="Motorcycle_Per_100K">Motorcycles (Per 100K)<br>
+			<input type="radio" name="leftAxis"  value="Bicycle_Per_100K">Bicycles (Per 100K)<br>
+			<input type="radio" name="leftAxis"  value="Trucks_Per_100K">Trucks (Per 100K)<br>
+			-->
+
+			
+			</form>
+
+		   </div>
+		   <div style="padding-right:50px">
+			<form>
+				<label for="fname">Totals(Per 100K)</label>
+				<br>
+			    <br>
+			 <!--
+			 <input type="radio" name="rightAxis"  value="Total" >All<br>
+			 <input type="radio" name="rightAxis"   value="Car_Occupant">Cars<br>
+			 <input type="radio" name="rightAxis"  value="Pedestrian">Pedestrians<br>
+			 <input type="radio" name="rightAxis"  value="Motorcycle">Motorcycles<br>
+			 <input type="radio" name="rightAxis"  value="Bicycle">Bicycles<br>
+			 <input type="radio" name="rightAxis"  value="Trucks">Trucks<br>
+			 
+			 -->
+			 <input type="checkbox" name="rightAxis" onchange="onChange2(this)"  value="Total_Per_100K" >All (Per 100K)<br>
+			 <input type="checkbox" name="rightAxis" onchange="onChange2(this)"   value="Car_Per_100K">Cars (Per 100K)<br>
+			 <input type="checkbox" name="rightAxis" onchange="onChange2(this)"  value="Ped_Per_100K">Pedestrians (Per 100K)<br>
+			 <input type="checkbox" name="rightAxis" onchange="onChange2(this)"  value="Motorcycle_Per_100K">Motorcycles (Per 100K)<br>
+			 <input type="checkbox" name="rightAxis" onchange="onChange2(this)"  value="Bicycle_Per_100K">Bicycles (Per 100K)<br>
+			 <input type="checkbox" name="rightAxis" onchange="onChange2(this)"  value="Trucks_Per_100K">Trucks (Per 100K)<br>
+			 
+			 </form>
+		   </div>
+			
+	
+			
+			
+		
+   	
+		   </div>
+			<div id="chart1">
+	    	</div>
+		  	
+	        
+	   	
+	</body>
+</html>
+
